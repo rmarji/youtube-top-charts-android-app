@@ -1,0 +1,43 @@
+<resources>
+
+   	<string name="app_name">قناة الشقيري</string>
+     
+   
+     <string name="about_app_mail_subject">مرسل من قناة الشقيري - أندرويد</string>
+     <string name="about_app_mail_client_notFound">عفواً, الرجاء تحميل تطبيق البريد الإلكتروني</string>
+     <string name="about_app_mail_chooser_title">أرسل باستخدام :</string>
+       
+    
+    <string name="start_tool_bar_title">قناة الشقيري</string>
+    <string name="video_tool_bar_title">استعراض فيديو</string>
+    <string name="loading_play_lists">جاري تحميل البيانات</string>
+    <string name="saving_play_lists">جاري تخزين البيانات</string>
+    <string name="done">تم تحميل البيانات بنجاح</string>
+    <string name="connection_error">عفواً, الرجاء التأكد من اتصالك بالانترنت</string>
+     
+    
+     <string name="share_text_1">قمت بمشاهدة :</string>
+      <string name="share_text_3">شارك باستخدام</string>
+     <string name="not_set">بيانات محجوبة</string>
+     
+     
+     <string name="back_button_pressed">إضغط للخلف ثانية للخروج من التطبيق</string>
+     <string name="feature_not_supported_for_2.2">عفواً , هذة الخدمة تتطلب أندرويد ٢.٣ أو أعلى</string>
+     
+     <string name="loading_video_detalis">جاري تحميل بيانات المقطع ...</string>
+     <string name="download_started">بدأ التحميل</string>
+     
+     
+     <string name="str_vv_duration">مدة :</string>
+     <string name="str_vv_date">تاريخ :</string>
+     <string name="str_vv_rating">تقييم :</string>
+     <string name="str_vv_views">مشاهدات :</string>
+     
+     <string name="str_aa_about">عن التطبيق </string>
+     
+     
+     <string name="str_searching">جاري البحث عن :</string>
+     <string name="no_search_result">عفواً, لا يوجد نتائج</string>
+	
+	
+</resources>

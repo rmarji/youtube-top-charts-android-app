@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<!-- Global : image Back Ground -->
+<color name="ccc">#ccc</color> 
+
+<!-- Main Menu UI  -->
+<!-- Cell BackGround -->
+<color name="c_menu_list">#303030</color>
+<!-- Cell BackGround Hover-->
+<color name="c_menu_list_hover">#505050</color>
+<!-- Cell Divider -->
+<color name="c_menu_divider">#262626</color>
+<!-- footer BackGround -->
+<color name="c_menu_footer">#303030</color>
+<!-- Cell text color -->
+<color name="c_menu_cell_text">#FFFFFF</color>
+<!-- footer top thing line -->
+<color name="c_menu_footer_top">#000000</color>
+
+
+<!-- Play List UI  -->
+<!-- Cell BackGround -->
+<color name="c_bg_row_video_color">#3f3e3a</color>
+<!-- Cell BackGround Hover-->
+<color name="c_play_list_row_video_hover_image">#000</color>
+<!-- Cell Text Color -->
+<color name="c_play_list_row_video_text_color">#FFFFFF</color>
+<!-- Cell thin bar color -->
+<color name="c_play_list_row_video_end">#000000</color>
+
+
+<!-- Global : Tool Bars Text's Color -->
+<color name="c_tool_bar_title_text">#ffcc03</color>
+
+
+<!--  Video View -->
+<!-- Title & values -->
+<color name="c_vv_detalis_text_1">#ffcc03</color>
+<!-- Description , Date , Rating , Duration , Views -->
+<color name="c_vv_detalis_text_2">#FFFFFF</color>
+<!-- Line Color (the divivder between texts)-->
+<color name="c_line">#484846</color>
+ 
+</resources>

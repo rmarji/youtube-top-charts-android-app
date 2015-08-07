@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_bg" >
+
+    <RelativeLayout
+        android:id="@+id/video_li1"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:background="@drawable/vv_topbar_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/vv_bg_btn_home"
+            android:onClick="btnAction"
+            android:tag="5" />
+
+        <TextView
+            android:id="@+id/vv_tv_title_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:layout_toLeftOf="@+id/btnHome"
+            android:text="@string/str_aa_about"
+            android:textColor="@color/c_tool_bar_title_text"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/video_li1" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/im_productlogo"
+                android:layout_width="220dp"
+                android:layout_height="97dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/productlogo" />
+
+            <LinearLayout
+                android:id="@+id/li_fff"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/im_productlogo" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="170dp"
+                        android:layout_height="161dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/etqan_logo" />
+
+                    <LinearLayout
+                        android:id="@+id/li_buttons"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/imageView1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal" >
+
+                        <Button
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/home_btn"
+                            android:onClick="btnAction"
+                            android:tag="1" />
+
+                        <Button
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/facebook_btn"
+                            android:onClick="btnAction"
+                            android:tag="4" />
+
+                        <Button
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/twitter_btn"
+                            android:onClick="btnAction"
+                            android:tag="3" />
+
+                        <Button
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/mail_btn"
+                            android:onClick="btnAction"
+                            android:tag="2" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/adView2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/li_buttons"
+                        android:layout_marginTop="10dp"
+                        ads:adSize="BANNER"
+                        ads:adUnitId="@string/AD_UNIT_ID"
+                        ads:loadAdOnCreate="true"
+                        ads:testDevices="TEST_EMULATOR, 72D6B10F682551C28FE59DF4F4CA23F7" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <com.google.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+                android:id="@+id/adView1"
+                android:layout_width="fill_parent"
+                android:layout_height="75px"
+                android:layout_below="@+id/li_fff"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="@string/AD_UNIT_ID"
+                ads:testDevices="TEST_EMULATOR, 72D6B10F682551C28FE59DF4F4CA23F7"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

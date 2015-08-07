@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/rmarji/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/rmarji/AndroidStudioProjects/Android App/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-22140dac2c794810eb835d814806e80e98d0b407.jar" />
+    </item>
+    <item
+        jar="/Users/rmarji/AndroidStudioProjects/Android App/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ccfbddf99584bddbaab62c0cf50dcd1c564e43">
+        <dex dex="/Users/rmarji/AndroidStudioProjects/Android App/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi-0ec3c206bfe8ccd50823d78326f4b5ad8ceeb1b2.jar" />
+    </item>
+    <item
+        jar="/Users/rmarji/AndroidStudioProjects/Android App/app/libs/GoogleAdMobAdsSdk-6.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="40ffb9188343d72dc46d596836a8dd8d464b41a3">
+        <dex dex="/Users/rmarji/AndroidStudioProjects/Android App/app/build/intermediates/pre-dexed/debug/GoogleAdMobAdsSdk-6.2.1-2abb382518444a94e239423200b36f1e03cbb1b0.jar" />
+    </item>
+
+</items>

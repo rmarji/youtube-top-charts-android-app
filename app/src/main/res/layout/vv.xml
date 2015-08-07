@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <com.google.android.youtube.player.YouTubePlayerView
+      android:id="@+id/youtube_view"
+      android:layout_width="match_parent"
+      android:layout_centerInParent="true"
+      android:layout_height="fill_parent"
+      android:layout_above="@+id/adView1"/>
+      <com.google.ads.AdView  
+      xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+     android:id="@+id/adView1"
+     android:layout_width="match_parent"
+     android:layout_height="75dp" 
+     android:layout_alignParentBottom="true"
+     ads:adUnitId="@string/AD_UNIT_ID"      
+     ads:adSize="SMART_BANNER"
+     ads:loadAdOnCreate="true"
+     ads:testDevices="TEST_EMULATOR, 72D6B10F682551C28FE59DF4F4CA23F7"  />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    tools:context=".Act_MainMenu">
+ 
+   <com.slidingmenu.lib.SlidingMenu
+    xmlns:sliding="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/slidingmenulayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    sliding:behindOffset="180dip"
+    sliding:behindScrollScale="0.25"        
+ />  
+
+</RelativeLayout>
+ <!-- sliding:viewBehind="@layout/ui_main_menu" -->

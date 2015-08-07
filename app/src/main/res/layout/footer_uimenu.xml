@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/c_menu_footer" >
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+       android:background="@color/c_menu_footer_top"/>
+    <LinearLayout
+         android:id="@+id/li_buttons"
+         android:layout_below="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="20dp"
+         android:orientation="horizontal" >
+
+         <Button
+             android:layout_width="32dp"
+             android:layout_height="32dp"
+             android:layout_marginRight="10dp"
+             android:background="@drawable/home_btn"
+             android:onClick="btnAction"
+             android:tag="1" />
+
+         <Button
+             android:layout_width="32dp"
+             android:layout_height="32dp"
+             android:layout_marginRight="10dp"
+             android:background="@drawable/facebook_btn"
+             android:onClick="btnAction"
+             android:tag="4" />
+
+         <Button
+             android:layout_width="32dp"
+             android:layout_height="32dp"
+             android:layout_marginRight="10dp"
+             android:background="@drawable/twitter_btn"
+             android:onClick="btnAction"
+             android:tag="3" />
+     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="220dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/li_buttons"
+        android:layout_centerHorizontal="true" 
+        android:src="@drawable/searchbox_bg" />
+
+    <EditText
+        android:id="@+id/searchBox"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_toLeftOf="@+id/imageView3"
+        android:background="#00000000"
+        android:ems="10" />
+
+    <ImageButton
+        android:id="@+id/imageView3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="14dp"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignTop="@+id/imageView2"
+        android:background="@drawable/ls_btn_search" />
+ <com.google.ads.AdView 
+      xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+     
+     android:id="@+id/adView1"
+     android:layout_width="match_parent"
+     android:layout_height="50dp" 
+     android:layout_below="@+id/imageView3" 
+     ads:adUnitId="@string/AD_UNIT_ID"      
+     ads:adSize="BANNER"
+     ads:testDevices="TEST_EMULATOR, 72D6B10F682551C28FE59DF4F4CA23F7"  />
+</RelativeLayout>

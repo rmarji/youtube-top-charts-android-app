@@ -1,0 +1,60 @@
+<resources>
+
+   	<string name="app_name">TED Talks</string>
+    <string name="app_lang">en</string> 
+    <string name="CHANEEL_ID">tedtalksdirector</string>
+    <string name="FEED_URL">http://Your Web Site/YoutubeFeedAndroid.php</string>
+    <string name="SEARCH_URL">http://Your Web Site/search.php</string>
+    <string name="AD_UNIT_ID">a1509b90a4ae0fe</string>
+    
+
+   
+     
+     <string name="about_app_mail">info@EtqanApps.com</string>
+     <string name="about_app_site">http://www.EtqanApps.com</string>
+     <string name="about_app_twitter">http://www.twitter.com/etqanapps</string>
+     <string name="about_app_facebook">https://www.facebook.com/EtqanApps</string>
+     <string name="about_app_mail_subject">Sent from TedX - Android</string>
+     <string name="about_app_mail_client_notFound">Sorry, please download e-mail client</string>
+     <string name="about_app_mail_chooser_title">Send Using :</string>
+      
+    <string name="about_channel_site">http://www.ted.com</string>
+    <string name="about_channel_twitter">https://twitter.com/TEDTalks</string>
+    <string name="about_channel_facebook">https://www.facebook.com/TED</string>
+     
+    
+    <string name="start_tool_bar_title">TED Talks</string>
+    <string name="video_tool_bar_title">Video</string>
+    <string name="loading_play_lists">Loading Videos Data</string>
+    <string name="saving_play_lists">Storing data in Data Base</string>
+    <string name="done">Videos Data Downloaded Successfully</string>
+    <string name="connection_error">Sorry , please check your internet connection</string>
+     
+    
+     <string name="share_text_1">Just watched :</string>
+     <string name="share_text_2">via @EtqanApps </string>
+     <string name="share_text_3">Share using: </string>
+     <string name="not_set">not set</string>
+     
+     
+      <string name="back_button_pressed">press again to exit</string>
+     <string name="feature_not_supported_for_2.2">Sorry , this feature requre android 2.3 or higher</string>
+     
+     <string name="loading_video_detalis">loading video detalis ....</string>
+     <string name="download_started">Download Started</string>
+     
+     
+     <string name="str_vv_duration">Duration: </string>
+     <string name="str_vv_date">Date: </string>
+     <string name="str_vv_rating">Rating: </string>
+     <string name="str_vv_views">Views: </string>
+     
+     <string name="str_aa_about">About </string>
+     
+     
+     <string name="str_searching">Searching For :  </string>
+     <string name="no_search_result">Sorry, no results found</string>
+     <string name="no_play_lists">Sorry, no playlists found on your channel</string>
+	
+	
+</resources>
